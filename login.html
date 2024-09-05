@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - KCS Web</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .move-image {
+            position: relative;
+            top: 50px;
+            left: 100px;
+        }
+        body {
+            background-color: #f1f3f4;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .signin-row {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+        }
+        .logo-container {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 2rem;
+            border-right: 1px solid #ddd;
+        }
+        .logo-container img {
+            width: 150px; /* Adjust according to your logo size */
+            margin-bottom: 1rem;
+        }
+        .logo-container h1 {
+            font-size: 1.5rem;
+            margin: 0; /* No margin for alignment */
+        }
+        .form-container {
+            width: 50%;
+            padding: 2rem;
+            background-color: white;
+        }
+        .form-container h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .btn-custom {
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            font-weight: bold;
+        }
+        .btn-custom:hover {
+            background-color: #357ae8;
+        }
+        .form-group a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .form-group a:hover {
+            text-decoration: underline;
+        }
+        .form-group p {
+            margin-top: 1rem;
+        }
+        hr {
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="signin-row">
+            <div class="logo-container">
+                <img src="logo.jpg" height="90" alt="KCS Web Logo">
+                <h1>Sign in</h1>
+            </div>
+            <div class="form-container">
+                <form action="gmail1.html"> <!-- Form submission will now redirect to gmail1.html -->
+                    <div class="form-group">
+                        <label for="email">Email or phone</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter your email or phone" requred>
+                    </div>
+                    <button type="submit" class="btn btn-custom btn-block">Next</button>
+                </form>
+                <div class="form-group mt-3">
+                    <a href="#">Forgot email?</a>
+                </div>
+                <div class="form-group">
+                    <p>Not your computer? Use Guest mode to sign in privately. <a href="#">Learn more</a></p>
+                </div>
+                <hr>
+                <div class="form-group text-center">
+                    <p>Don't have an account? <a href="#">Create account</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
