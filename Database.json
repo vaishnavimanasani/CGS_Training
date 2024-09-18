@@ -1,0 +1,26 @@
+{ 
+    "Employees":[ 
+        { 
+            "id":"1182", 
+            "email":"Vaishnavi@gmail.com", 
+            "password":"Vaishu_123", 
+            "isAdmin":true 
+             
+        }, 
+        { 
+            "id":"1183", 
+            "email":"Teju@gmail.com", 
+            "password":"Teju_123", 
+            "isAdmin":false 
+ 
+        }, 
+        { 
+            "id":"1184", 
+            "email":"Venky@gmail.com", 
+            "password":"Venky_123", 
+            "isAdmin":false 
+ 
+        } 
+     
+    ] 
+}

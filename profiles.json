@@ -1,0 +1,27 @@
+{
+    "profiles":[
+        {
+            "id":1,
+            "name": "johnDoe",
+            "user-id": "johnDoe",
+            "password": "password123"
+        },
+        {
+            
+            "id":2,
+            "name": "vaishu",
+            "user-id": "vaishu",
+            "password": "vaishu123"
+                       
+            
+        },
+        {
+              
+            "id":3, 
+            "name": "teju",
+            "user-id": "teju",
+            "password": "teju123"
+        }
+    ]
+    
+}

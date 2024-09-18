@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(6, 75, 6, 0.827);
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+}
+.card {
+    background-color: #FFF; 
+    border: none;
+    color: #201e1e; 
+    overflow: hidden; 
+}
+.card:hover {
+    box-shadow: 0 0 10px rgba(203, 3, 3, 0.2);
+    transform: translateY(-10px);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.card img {
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+audio {
+    width: 100%; 
+    margin-top: 10px; 
+}

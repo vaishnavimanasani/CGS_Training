@@ -1,0 +1,19 @@
+#topbar {
+    height: 20px;
+    background-color: aqua;
+}
+#profilepic{
+    height: 50px;
+}
+#top-subbar {
+    font-display: flex;
+    place-content: space-between;
+}
+#row {
+    width: 50px;
+    display: flex;
+}
+#column {
+    width: 50px;
+    display: block;
+}
